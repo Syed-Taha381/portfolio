@@ -1,0 +1,97 @@
+@import "./main.scss";
+.projectHeader {
+  background: $grey;
+
+  .back {
+    position: relative;
+    width: 80px;
+    height: 60px;
+    cursor: pointer;
+    transform: scale(0.5) rotate(180deg) translate(40px, 0px);
+    .backArrow {
+      position: absolute;
+      top: 25px;
+      width: 90%;
+      height: 10px;
+      background-color: #fff;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: 60%;
+        height: 10px;
+        right: -8px;
+        background-color: #fff;
+      }
+      &::after {
+        top: -12px;
+        transform: rotate(45deg);
+      }
+      &::before {
+        top: 12px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+.ProjectReview {
+  min-height: 100vh;
+  background: $dark;
+  width: 100%;
+  padding: 7rem 1.5rem;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    width: 100%;
+    span {
+      background: $gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .PR {
+    width: 45%;
+    border-radius: 1rem;
+    overflow: hidden;
+    text-align: center;
+    h3 {
+      margin-bottom: 1rem;
+      text-align: center;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+    }
+    img {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
+  .Responsivness {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    .PR {
+      max-width: 300px;
+      img {
+        height: 500px;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .ProjectReview {
+    .PR {
+      width: 100%;
+    }
+  }
+}

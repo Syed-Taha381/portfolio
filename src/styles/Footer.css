@@ -1,0 +1,48 @@
+.Footer {
+  background: #282b34;
+  padding: 1rem 1.5rem;
+}
+
+.Footer .footerLogo img {
+  width: 120px;
+  display: block;
+  margin: auto;
+}
+
+.Footer .Socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.Footer .Socials img {
+  width: 20px;
+}
+
+.Footer .PP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  color: #fff;
+}
+
+.Footer .Since {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #111;
+}
+/*# sourceMappingURL=Footer.css.map */

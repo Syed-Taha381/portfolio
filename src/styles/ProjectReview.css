@@ -1,0 +1,125 @@
+.projectHeader {
+  background: #3d3e52;
+}
+
+.projectHeader .back {
+  position: relative;
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+  -webkit-transform: scale(0.5) rotate(180deg) translate(40px, 0px);
+          transform: scale(0.5) rotate(180deg) translate(40px, 0px);
+}
+
+.projectHeader .back .backArrow {
+  position: absolute;
+  top: 25px;
+  width: 90%;
+  height: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.projectHeader .back .backArrow::before, .projectHeader .back .backArrow::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 10px;
+  right: -8px;
+  background-color: #fff;
+}
+
+.projectHeader .back .backArrow::after {
+  top: -12px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.projectHeader .back .backArrow::before {
+  top: 12px;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.ProjectReview {
+  min-height: 100vh;
+  background: #282b34;
+  width: 100%;
+  padding: 7rem 1.5rem;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.ProjectReview h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.ProjectReview h1 span {
+  background: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ProjectReview .PR {
+  width: 45%;
+  border-radius: 1rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ProjectReview .PR h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.ProjectReview .PR img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.ProjectReview .Responsivness {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ProjectReview .Responsivness .PR {
+  max-width: 300px;
+}
+
+.ProjectReview .Responsivness .PR img {
+  height: 500px;
+}
+
+@media (max-width: 650px) {
+  .ProjectReview .PR {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=ProjectReview.css.map */

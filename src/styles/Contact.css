@@ -1,0 +1,66 @@
+.Contact {
+  padding: 5rem 1.5rem;
+  min-height: 50vh;
+}
+
+.Contact h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #282b34;
+}
+
+.Contact h1 span {
+  background: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.Contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 2rem;
+}
+
+.Contact form .Contact__Message {
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.Contact form .inputWrapper {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.Contact form .inputWrapper input, .Contact form .inputWrapper textarea {
+  width: 100%;
+  padding: 0.7rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #282b34;
+}
+
+.Contact form .Contact__Btn {
+  padding: 1rem;
+  width: 200px;
+  letter-spacing: 1.2px;
+  background: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border-radius: 2rem;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+/*# sourceMappingURL=Contact.css.map */

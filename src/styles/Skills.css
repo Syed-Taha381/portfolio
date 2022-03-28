@@ -1,0 +1,193 @@
+.Skills {
+  min-height: 100vh;
+  background: #282b34;
+  padding: 5rem 1.5rem;
+}
+
+.Skills h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Skills h1 span {
+  background: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.Skills div {
+  position: relative;
+  min-height: 80vh;
+}
+
+.Skills div h3, .Skills div h2, .Skills div span {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+}
+
+.Skills div #HTML {
+  top: 10%;
+  right: 10%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.Skills div #CSS {
+  top: 10%;
+  left: 10%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.Skills div #Javascript {
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.Skills div #React {
+  top: 20%;
+  left: 20%;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.Skills div #Redux {
+  top: 20%;
+  right: 20%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.Skills div #Mongo {
+  top: 30%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #Express {
+  top: 40%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #Next {
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #Node {
+  top: 70%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #Gsap {
+  top: 30%;
+  left: 5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Skills div #API {
+  top: 30%;
+  right: 5%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Skills div #Spring {
+  top: 42%;
+  left: 5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Skills div #FramerMotion {
+  top: 42%;
+  right: 5%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Skills div #Bootstrap {
+  top: 57%;
+  left: 5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Skills div #Material {
+  top: 57%;
+  right: 5%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Skills div #Formik {
+  top: 70%;
+  right: 5%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Skills div #Yup {
+  top: 70%;
+  left: 5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Skills div #Firebase {
+  top: 60%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #JSON {
+  top: 80%;
+  left: 5%;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.Skills div #AJAX {
+  top: 82%;
+  right: 5%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Skills div #Python {
+  bottom: -10%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.Skills div #Flask {
+  bottom: -2%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+/*# sourceMappingURL=Skills.css.map */

@@ -1,0 +1,146 @@
+@import './main.scss';
+.Skills{
+    min-height: 100vh;
+    background: $dark;
+    padding: 5rem 1.5rem;
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: #fff;
+        span{
+            background: $gradient;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+    }
+    div{
+        position: relative;
+        min-height: 80vh;
+       
+        h3,h2,span{
+            display: inline-block;
+            padding: 1rem;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            color: #fff;
+        
+            position: absolute;
+        }
+        #HTML{
+            top: 10%;
+            right: 10%;
+            transform: rotate(30deg);
+        }
+        #CSS{
+            top: 10%;
+            left: 10%;
+            transform: rotate(-30deg);
+        }
+        #Javascript{
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        #React{
+            top: 20%;
+            left: 20%;
+            transform: rotate(-30deg);
+        }
+        #Redux{
+            top:20%;
+            right: 20%;
+            transform: rotate(30deg);
+        }
+        #Mongo{
+            top: 30%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #Express{
+            top: 40%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #Next{
+            top: 50%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #Node{
+            top:70%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #Gsap{
+            top: 30%;
+            left: 5%;
+            transform: rotate(-90deg);
+        }
+        #API{
+            top: 30%;
+            right: 5%;
+            transform: rotate(90deg);
+        }
+        #Spring{
+            top: 42%;
+            left: 5%;
+            transform: rotate(-90deg);
+        }
+        #FramerMotion{
+            top: 42%;
+            right: 5%;
+            transform: rotate(90deg);
+        }
+        #Bootstrap{
+            top: 57%;
+            left: 5%;
+            transform: rotate(-90deg);
+        }
+        #Material{
+               top: 57%;
+               right: 5%;
+               transform: rotate(90deg);
+            }
+            #Formik{
+            top: 70%;
+            right: 5%;
+            transform: rotate(90deg);
+        }
+            #Yup{
+            top: 70%;
+             left: 5%;
+            transform: rotate(-90deg);
+        }
+        #Firebase{
+            top: 60%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #JSON{
+            top: 80%;
+            left: 5%;
+            transform: rotate(-90deg);
+        }
+        #AJAX{
+            top: 82%;
+            right: 5%;
+            transform: rotate(90deg);
+        }
+        #Python{
+            bottom:-10%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        #Flask{
+             bottom: -2%;
+             right: 50%;
+             transform: translateX(50%);
+        }
+    }
+}
+

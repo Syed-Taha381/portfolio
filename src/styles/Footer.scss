@@ -1,0 +1,35 @@
+@import './main.scss';
+.Footer{
+    background: $grey;
+    padding: 1rem 1.5rem;
+    .footerLogo{
+        img{
+            width: 120px;
+            display: block;
+            margin: auto;
+        }
+    }
+    .Socials{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        img{
+            width: 20px;
+        }
+    }
+    .PP{
+        display: flex;
+         justify-content: center;
+         gap:1rem;
+         margin: 1rem 0;
+         color: #fff;
+    }
+    .Since{
+        text-align: center;
+        margin-bottom: 1rem;
+        color:#111
+    }
+}
